@@ -22,6 +22,7 @@ The **Input Type API** is a simple but powerful project where you can check what
 - 🔑 Hash (MD5, SHA1, SHA256…)
 - 📧 Email
 - 🌍 URL
+- Phone Numbers
 - And much more!
 
 This can be used in **validation systems**, **data cleaning tools**, or even as a **mini microservice** for developers.
@@ -134,7 +135,7 @@ Just **fork**, **create a branch**, and **submit a PR**.
 
 ## 📜 License
 
-MIT License © 2025 \[Your Name]
+MIT License © 2025 \ShAiDSk
 
 ---
 
@@ -143,3 +144,4 @@ MIT License © 2025 \[Your Name]
 </p>
 
 ---
+
