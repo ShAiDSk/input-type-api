@@ -65,12 +65,12 @@ http://127.0.0.1:5000
 
 ## 🎯 Features
 
-✅ Detects multiple input types
-✅ API + Frontend integration
-✅ Real-time validation with **JS fetch()**
-✅ Clean UI with Tailwind CSS
-✅ Extensible → Add more input types easily
-✅ Stores the last **5 checked inputs** in session history.
+* ✅ Detects multiple input types
+* ✅ API + Frontend integration
+* ✅ Real-time validation with **JS fetch()**
+* ✅ Clean UI with Tailwind CSS
+* ✅ Extensible → Add more input types easily
+* ✅ Stores the last **5 checked inputs** in session history.
 
 ---
 
@@ -151,6 +151,7 @@ MIT License © 2025 \ShAiDSk
 </p>
 
 ---
+
 
 
 
