@@ -84,6 +84,10 @@ http://127.0.0.1:5000
   <img src="https://github.com/ShAiDSk/input-type-api/blob/main/DEMO2.png" width="600" alt="Demo Preview"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/ShAiDSk/input-type-api/blob/main/History_store.png" width="600" alt="Demo Preview"/>
+</p>
+
 ---
 
 ## 📡 API Usage
@@ -151,6 +155,7 @@ MIT License © 2025 \ShAiDSk
 </p>
 
 ---
+
 
 
 
