@@ -1,9 +1,10 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, session
 import re
 import hashlib
 import ipaddress
 
 app = Flask(__name__)
+app.secret_key = "supersecretkey"
 
 def luhn_check(card_number: str) -> bool:
     """Validate credit card number using Luhn's Algorithm"""
@@ -99,9 +100,18 @@ def check_input():
     user_input = data.get("input", "")
     if not user_input:
         return jsonify({"error": "No input provided"}), 400
-    
     result = detect_type(user_input)
+
+    history = session.get("history", [])
+    history.insert(0, {"input": user_input, "type": result})
+    history = history[:5]
+    session["history"] = history
+
     return jsonify({"input": user_input, "type": result})
+
+@app.route("/history", methods=["GET"])
+def get_history():
+    return jsonify(session.get("history", []))
 
 if __name__ == "__main__":
     app.run(debug=True)
