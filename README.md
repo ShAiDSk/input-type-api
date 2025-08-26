@@ -25,6 +25,8 @@ The **Input Type API** is a simple but powerful project where you can check what
 - ☎️ Phone Numbers
 - And much more!
 
+## The app also keeps a history of the **last 5 inputs** checked.
+
 This can be used in **validation systems**, **data cleaning tools**, or even as a **mini microservice** for developers.
 
 ---
@@ -68,6 +70,7 @@ http://127.0.0.1:5000
 ✅ Real-time validation with **JS fetch()**
 ✅ Clean UI with Tailwind CSS
 ✅ Extensible → Add more input types easily
+✅ Stores the last **5 checked inputs** in session history.
 
 ---
 
@@ -148,5 +151,6 @@ MIT License © 2025 \ShAiDSk
 </p>
 
 ---
+
 
 
