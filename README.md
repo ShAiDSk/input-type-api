@@ -22,7 +22,7 @@ The **Input Type API** is a simple but powerful project where you can check what
 - 🔑 Hash (MD5, SHA1, SHA256…)
 - 📧 Email
 - 🌍 URL
-- Phone Numbers
+- ☎️ Phone Numbers
 - And much more!
 
 This can be used in **validation systems**, **data cleaning tools**, or even as a **mini microservice** for developers.
@@ -74,7 +74,11 @@ http://127.0.0.1:5000
 ## 🖼️ Demo UI Preview
 
 <p align="center">
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="600" alt="Demo Preview"/>
+  <img src="https://github.com/ShAiDSk/input-type-api/blob/main/DEMO1.png" width="600" alt="Demo Preview"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/ShAiDSk/input-type-api/blob/main/DEMO2.png" width="600" alt="Demo Preview"/>
 </p>
 
 ---
@@ -144,4 +148,5 @@ MIT License © 2025 \ShAiDSk
 </p>
 
 ---
+
 
